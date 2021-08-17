@@ -1,9 +1,14 @@
 from tkinter import *
+from PIL import ImageTk, Image
 
 app = Tk()
 app.title("Tkinter fun")
 app.configure(bg="green")
-app.geometry("400x300")
+app.geometry("640x427")
+
+foto_gent = ImageTk.PhotoImage(Image.open(r"C:\Users\scheppsu\Pictures\640px-Graslei_Ghent.jpg"))
+foto_label = Label(app, image=foto_gent)
+foto_label.place(x=0, y=0)
 
 def ditinfo():
     info = Label(app, text="Hello "  + input.get(), font=("Helvetica", 15, "italic"))
