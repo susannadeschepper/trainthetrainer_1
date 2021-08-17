@@ -1,0 +1,2 @@
+x = "susanna"
+print(x)
