@@ -43,10 +43,8 @@ def options():
 
     label_test = Label(app, text="", font=font_result, bg="#00a57d")
     label_test.grid(row=7, column=1)
-
     def callback(*args):
-        label_test.configure(text="You chose: {}".format(choice.get()))
-
+       label_test.configure(text="You chose: {}".format(choice.get()))
     choice.trace("w", callback)
 
 
