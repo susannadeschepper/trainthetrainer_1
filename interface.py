@@ -6,7 +6,7 @@ app = Tk()
 app.title("Train the Trainer 1")
 app.configure(bg="#00a57d")
 app.geometry("640x427")
-app.iconbitmap(r"C:\Users\scheppsu\Pictures\CoGent_logo.ico")
+#app.iconbitmap(r"C:\Users\scheppsu\Pictures\CoGent_logo.ico")
 
 font_gen = font.Font(family="Lucida Sans", name="appgenfont", size=10, weight="normal")
 font_result = font.Font(family="Lucida Sans", name="appresultfont", size=10, weight="normal", slant="italic")
